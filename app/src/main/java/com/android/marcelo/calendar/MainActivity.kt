@@ -45,11 +45,11 @@ class MainActivity : AppCompatActivity() {
 
         val calID: Long = 3
         val startMillis: Long = Calendar.getInstance().run {
-            set(2022, 1, 24, 13, 30)
+            set(2022, 0, 24, 13, 30)
             timeInMillis
         }
         val endMillis: Long = Calendar.getInstance().run {
-            set(2022, 2, 14, 23, 45)
+            set(2022, 1, 14, 23, 45)
             timeInMillis
         }
 
